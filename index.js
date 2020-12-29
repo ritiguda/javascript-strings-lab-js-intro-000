@@ -2,13 +2,8 @@ var greeting = "Hello, everybody!";
 
 var specialGuest = "Neil deGrasse Tyson";
 
-var greetSpecialGuest = "" + specialGuest ;
+var greetSpecialGuest = `Hello, ${specialGuest}!` ;
 
 var topic = "space";
 
 var conversation = `${topic}`;
-AssertionError: '!' == 'Hello, everybody!'
-+ expected - actual
-
-- !
-+Hello, everybody!
